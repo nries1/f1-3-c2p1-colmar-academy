@@ -1,0 +1,550 @@
+/* CSS for all Devices */
+.navBar a, .mobileNavBar a {
+  color: white;
+}
+
+.navBar a, .mobileNavBar a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/* CSS for Small Devices */
+@media only screen and (max-width: 776px) {
+  .navBar {
+    display: none;
+  }
+
+  html {
+    font-size: 16px;
+    font-family: Helvetica;
+  }
+
+
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Navigation Bar */
+
+.mobileNavBar {
+  display: flex;
+  justify-content: space-around;
+  height: 2rem;
+}
+
+.mobileNavBar img{
+  transition: background-color 1000ms ease-out 100ms;
+  transition: pointer;
+}
+
+.mobileNavBar img:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+  /* First Banner */
+
+  .banner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+  }
+
+  .banner1 .photo1 {
+    height: 20rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    background-image: url("../../resources/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .sidePanel1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .sidePanel1 h1 {
+    padding: 0;
+    margin: 0;
+  }
+
+.button {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin-bottom: 2rem;
+  }
+
+  .button p {
+    margin: 0;
+  }
+
+  /* Banner 2 */
+
+  .banner2 {
+    display: none;
+  }
+
+  .mobileBanner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+
+  .mobileBanner2 .mobileBox {
+    width: 100%;
+  }
+
+  .mobileBanner2 img {
+    width: 100%;
+    height: 65%;
+  }
+
+  .mobileBanner2 .mobileBox h4 {
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  .mobileBanner2 .mobileBox p {
+    padding-left: 1rem;
+  }
+
+  .mobileBanner2 a:hover {
+    text-decoration: none;
+  }
+
+
+  /* Banner 3 */
+
+.banner3 {
+    display: none;
+}
+
+.mobileBanner3 {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 1rem;
+  align-items: center;
+}
+
+.mobileBanner3 .btn {
+  width: 100%;
+  background-color: grey;
+  border-color: grey;
+  margin-bottom: 0.5rem;
+  padding: 1rem 1rem 1.5rem 1rem;
+  text-align: left;
+  border: flat;
+}
+
+.mobileBanner3 .btn #lastButon {
+  margin-bottom: 0;
+}
+
+.mobileBanner3 a {
+  color: white;
+}
+
+.mobileBanner3 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+  /* Banner 4 */
+
+  .banner4 video {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 0 1.5rem 0;
+  }
+
+
+  .banner4 h1 {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .banner4 .leftPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .banner4  p, .banner4 h3 {
+    display: none;
+  }
+
+.banner4 .rightPanel {
+  display: none;
+}
+
+  /* Footer */
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+  }
+
+  .footer p {
+    margin: 1rem 0;
+  }
+
+  .footer .legalLinks {
+    display: none;
+  }
+
+}
+
+
+
+
+/* -------------------- CSS for Large Devices --------------------- */
+
+@media only screen and (min-width: 736px) {
+  .mobileNavBar {
+    display: none;
+    }
+
+
+
+html {
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigation Bar */
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+#logoImg {
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+}
+
+.navBar nav span {
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+#signIn {
+  margin-right: 1.5rem;
+}
+
+#academy {
+  color: grey;
+}
+
+
+/* First Banner */
+
+.banner1 {
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.banner1 .photo1 {
+  height: 51rem;
+  width: 60%;
+  margin: 2rem 1.5rem;
+  background-image: url("../../resources/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.sidePanel1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.sidePanel1 h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: lightblue;
+}
+
+.button p {
+  margin: 0;
+}
+
+/* Banner 2 */
+
+.banner2 {
+  display: flex;
+}
+
+.mobileBanner2 {
+  display: none;
+}
+
+.photo21 {
+  height: 37.875rem;
+  margin: 2rem 1.5rem;
+  background-image: url("../../resources/images/information-main.jpg");
+  background-repeat: no-repeat;
+}
+
+.leftPanel {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 60%;
+}
+
+.leftPanelText h1, .leftPanelText p {
+  margin: 2rem 0 0 1.5rem;
+}
+
+.leftPanelText p {
+  margin-bottom: 2rem;
+}
+
+.sidePanel2 {
+ display: flex;
+ flex-direction: column;
+ width: 40%;
+ border-left: 1px solid grey;
+}
+
+.sidePanel2 .box {
+  display: flex;
+  height: 30%;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+
+}
+
+.sidePanel2 #box1 {
+  margin-top: 1rem;
+}
+
+.sidePanel2 .boxImg {
+  width: 45%;
+  margin: 1rem 1rem;
+  height: auto;
+  flex-shrink: 1;
+}
+
+.sidePanel2 .boxText {
+  width: 55%;
+  flex-shrink: 5;
+}
+
+.sidePanel2 h3 {
+  font-size: 1rem;
+}
+
+.sidePanel2 p {
+  font-size: 0.75rem;
+}
+
+.sidePanel2 #boxImg1 {
+  background-image: url("../../resources/images/information-orientation.jpg");
+}
+
+.sidePanel2 #boxImg2 {
+
+  background-image: url("../../resources/images/information-campus.jpg");
+}
+
+.sidePanel2 #boxImg3 {
+  background-image: url("../../resources/images/information-guest-lecture.jpg");
+}
+
+#box3 {
+  background-color: grey;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+/* Banner 3 */
+
+
+.banner3 {
+  background-color: grey;
+  padding-bottom: 2rem;
+}
+
+.mobileBanner3 {
+  display: none;
+}
+
+.banner3 h3 {
+  font-size: 1rem;
+}
+
+.banner3 h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+.banner3 p {
+  font-size: 0.75rem;
+}
+
+.banner3 .row1, .banner3 .row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.tiles {
+  margin: 2rem 4.5rem 0 4.5rem;
+  background-color: grey;
+}
+
+.tile {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 18.375rem;
+  height: 19rem;
+}
+
+
+.row1, .row2 {
+  display: flex;
+}
+
+.row1 {
+  margin-bottom: 2rem;
+}
+
+.tileText {
+  margin-left: 1rem;
+  height: 55%;
+}
+
+
+#tile1, #tile2, #tile4, #tile5 {
+  margin-right: 2rem;
+}
+
+.banner3 .tile img {
+  height: 45%;
+
+}
+
+
+/* Banner 4 */
+
+.banner4 video {
+  display: block;
+  width: 60%;
+  height: auto;
+}
+
+.banner4 h3 {
+  margin: 1.5rem 0rem 0.5rem;
+}
+
+.banner4 h1 {
+  text-align: center;
+}
+
+.panels {
+  display: flex;
+}
+
+.banner4 .leftPanel {
+  display: flex;
+  flex-direction: column;
+/*  width: 50%; */
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.banner4 .leftPanel p {
+  margin-bottom: 2rem;
+}
+
+.Banner4 .leftPanel h3 {
+  margin: 2rem 0 0.5rem 0;
+}
+
+.banner4 #box1 {
+  background-color: grey;
+
+}
+
+.banner4 .boxContent {
+  display: flex;
+}
+
+.banner4 .rightPanel img {
+  padding: 1rem 0 1rem 1rem;
+  margin-right: 1rem;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+  padding: 1rem 1.5rem 4rem 1.5rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+}
